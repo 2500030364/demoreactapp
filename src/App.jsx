@@ -12,13 +12,13 @@ import Demo4 from "./pages/Demo4"
 function App() 
 {
   let a = 10         
-  let txt = "jfsd"
+  let txt = "JFSD"
   let emp = {"id":1, "name":"Ayra", "salary":80000, "gender":"Female"}
 
   return (
     <div>
       <h2 style={{textAlign:"center",color:"red"}}>
-        <u>Sample React App</u>
+        <u> Sample React App </u>
       </h2>
 
       <Demo1 />
