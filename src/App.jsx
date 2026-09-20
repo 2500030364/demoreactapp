@@ -13,7 +13,7 @@ function App()
 {
   let a = 10         
   let txt = "jfsd"
-  let emp = {"id":1, "name":"Ram", "salary":80000, "gender":"male"}
+  let emp = {"id":1, "name":"Ayra", "salary":80000, "gender":"Female"}
 
   return (
     <div>
@@ -24,7 +24,7 @@ function App()
       <Demo1 />
       <Demo2 />
       <Demo3 />
-      <Demo4 a = {a} b = {100} text = {txt} emp = {emp}/>
+      <Demo4 a = {a} b = {700} text = {txt} emp = {emp}/>
     </div>
   )
 }
