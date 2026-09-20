@@ -11,16 +11,20 @@ import Demo4 from "./pages/Demo4"
 
 function App() 
 {
- 
+  let a = 10         
+  let txt = "jfsd"
+  let emp = {"id":1, "name":"Ram", "salary":80000, "gender":"male"}
+
   return (
     <div>
       <h2 style={{textAlign:"center",color:"red"}}>
-            <u>Sample React App</u>
+        <u>Sample React App</u>
       </h2>
+
       <Demo1 />
       <Demo2 />
       <Demo3 />
-      <Demo4 a={a} b={100} text={txt} emp={emp}/>
+      <Demo4 a = {a} b = {100} text = {txt} emp = {emp}/>
     </div>
   )
 }
